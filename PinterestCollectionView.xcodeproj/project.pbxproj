@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		A56DE81320B08AD700BA8693 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56DE81220B08AD700BA8693 /* AppDelegate.swift */; };
-		A56DE81520B08AD700BA8693 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56DE81420B08AD700BA8693 /* ViewController.swift */; };
+		A56DE81520B08AD700BA8693 /* PinterestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56DE81420B08AD700BA8693 /* PinterestViewController.swift */; };
 		A56DE81820B08AD700BA8693 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A56DE81620B08AD700BA8693 /* Main.storyboard */; };
 		A56DE81A20B08AD900BA8693 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A56DE81920B08AD900BA8693 /* Assets.xcassets */; };
 		A56DE81D20B08AD900BA8693 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A56DE81B20B08AD900BA8693 /* LaunchScreen.storyboard */; };
+		A56DE82620B08B9800BA8693 /* PinterestCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56DE82520B08B9800BA8693 /* PinterestCollectionViewCell.swift */; };
+		A56DE82820B095F800BA8693 /* PinterestLayoutDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56DE82720B095F800BA8693 /* PinterestLayoutDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A56DE80F20B08AD600BA8693 /* PinterestCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinterestCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A56DE81220B08AD700BA8693 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A56DE81420B08AD700BA8693 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A56DE81420B08AD700BA8693 /* PinterestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestViewController.swift; sourceTree = "<group>"; };
 		A56DE81720B08AD700BA8693 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A56DE81920B08AD900BA8693 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A56DE81C20B08AD900BA8693 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A56DE81E20B08AD900BA8693 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A56DE82520B08B9800BA8693 /* PinterestCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestCollectionViewCell.swift; sourceTree = "<group>"; };
+		A56DE82720B095F800BA8693 /* PinterestLayoutDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinterestLayoutDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				A56DE81220B08AD700BA8693 /* AppDelegate.swift */,
-				A56DE81420B08AD700BA8693 /* ViewController.swift */,
+				A56DE81420B08AD700BA8693 /* PinterestViewController.swift */,
+				A56DE82720B095F800BA8693 /* PinterestLayoutDelegate.swift */,
+				A56DE82520B08B9800BA8693 /* PinterestCollectionViewCell.swift */,
 				A56DE81620B08AD700BA8693 /* Main.storyboard */,
 				A56DE81920B08AD900BA8693 /* Assets.xcassets */,
 				A56DE81B20B08AD900BA8693 /* LaunchScreen.storyboard */,
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A56DE81520B08AD700BA8693 /* ViewController.swift in Sources */,
+				A56DE82820B095F800BA8693 /* PinterestLayoutDelegate.swift in Sources */,
+				A56DE82620B08B9800BA8693 /* PinterestCollectionViewCell.swift in Sources */,
+				A56DE81520B08AD700BA8693 /* PinterestViewController.swift in Sources */,
 				A56DE81320B08AD700BA8693 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
